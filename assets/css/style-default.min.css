@@ -14063,17 +14063,13 @@ hr{
     color: white;
 }
 
-.rule-list{
+.rule-list li{
     color: white;
     list-style: circle;
     text-align: center;
     font-size: 20px;
     font-family: Oswald, sans-serif;
     margin: 2%;
-}
-
-.rule-list li{
-  margin-bottom: 2%;
 }
 /*------------------------------------------
   modal colors for group events
