@@ -14288,3 +14288,19 @@ div#team-contact-info{
         font-size: 15px;
     }
 } 
+
+/* Glorious Years */
+
+#glorious-years{
+    font-family: 'Days One', sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+@media (max-width: 400px)  {
+
+    #glorious-years{
+        font-size: 20px;
+    }
+
+}
