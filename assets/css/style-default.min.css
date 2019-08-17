@@ -14304,3 +14304,10 @@ div#team-contact-info{
     }
 
 }
+
+/* Schedule */
+
+.lgx-travelinfo .lgx-inner {
+    background: url(../img/schedule-bg-pattern2.png) no-repeat; 
+    background-size: cover;
+}
