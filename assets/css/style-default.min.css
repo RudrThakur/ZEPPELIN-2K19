@@ -14185,7 +14185,7 @@ div#team-contact-info{
     margin-top: 2%;
 }
 
-#core-team-info #info-list ul li{
+#core-team-info #info-list ul li, #volunteer-team-info #info-list ul li{
     font-family:  Oswald, sans-serif;
     margin-top: 14px;
 }
