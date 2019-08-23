@@ -10295,7 +10295,7 @@ button:hover:after {
 }
 
 .lgx-sponsors .lgx-inner {
-    background: rgba(255, 255, 255, .88)
+     background: rgba(255, 100, 50, .18) 
 }
 
 .lgx-sponsors-black .lgx-inner {
@@ -10348,9 +10348,9 @@ button:hover:after {
     -moz-transition: all .3s ease-in-out 0s;
     -o-transition: all .3s ease-in-out 0s;
     transition: all .3s ease-in-out 0s;
-    -moz-box-shadow: 0 1px 15px 1px rgba(52, 40, 104, .05);
-    -webkit-box-shadow: 0 1px 15px 1px rgba(52, 40, 104, .05);
-    box-shadow: 0 1px 15px 1px rgba(52, 40, 104, .05)
+    -moz-box-shadow: 0 1px 15px 1px rgba(255, 255, 255, 0.05);
+    -webkit-box-shadow: 0 1px 15px 1px rgba(187, 17, 96, 0.644);
+    box-shadow: 0 1px 15px 1px rgba(238, 235, 236, 0.74)
 }
 
 .sponsors-area .single a {
@@ -10375,7 +10375,7 @@ button:hover:after {
     animation-timing-function: linear
 }
 
-.sponsors-area-col3 .single {
+.sponsors-area-col .single {
     width: 32%
 }
 
@@ -11881,6 +11881,23 @@ button:hover:after {
 .lgx-testimonial-black .lgx-inner {
     background: rgba(27, 39, 61, .9)
 }
+
+@media (max-width: 450px)  {
+
+    .lgx-testimonial ul li{
+       font-size: 14px;
+   }
+
+}
+
+@media (max-width: 768px)  {
+
+    .lgx-testimonial ul li{
+        font-size: 14px;
+    }
+ 
+ }
+
 
 blockquote.lgx-testi-single {
     padding: 36px 13% 0;
@@ -14187,7 +14204,7 @@ div#team-contact-info{
 
 #core-team-info #info-list ul li, #volunteer-team-info #info-list ul li{
     font-family:  Oswald, sans-serif;
-    margin-top: 14px;
+    margin-top: 20px;
 }
 
 @media (max-width:450px) {
@@ -14310,4 +14327,8 @@ div#team-contact-info{
 .lgx-travelinfo .lgx-inner {
     background: url(../img/schedule-bg-pattern2.png) no-repeat; 
     background-size: cover;
+}
+
+.lgx-travelinfo .container{
+    width: auto;
 }
