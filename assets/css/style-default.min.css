@@ -7066,7 +7066,7 @@ button:hover:after {
     color: #554bb9
 }
 
-.lgx-header .lgx-navbar .lgx-logo {
+.lgx-header .lgx-navbar .lgx-logo, .lgx-header .lgx-navbar .naac-logo , .lgx-header .lgx-navbar .kcg20-logo{
     -webkit-animation-name: fadeInRight;
     animation-name: fadeInRight;
     -webkit-transform-origin: center;
@@ -7425,9 +7425,9 @@ button:hover:after {
         padding: 10px 0
     }
 
-    .lgx-header .lgx-navbar .lgx-logo a img {
+    /* .lgx-header .lgx-navbar .lgx-logo a img {
         max-width: 150px
-    }
+    } */
 
     .lgx-header .lgx-navbar .lgx-nav li a,
     .lgx-header .menu-onscroll .lgx-navbar .lgx-nav li a {
@@ -14331,4 +14331,75 @@ div#team-contact-info{
 
 .lgx-travelinfo .container{
     width: auto;
+}
+
+/* LOGOS */
+
+@media (max-width: 1400px){
+
+    .naac-logo{
+        width: 10%;
+        margin-left: 5% !important;
+    }
+
+    .lgx-logo{
+        width: 70% !important;
+    }
+
+    .kcg20-logo{
+        width: 10% !important;
+        margin-left: 20% !important;
+    }
+}
+
+@media (max-width: 840px){
+
+    .naac-logo{
+        width: 10%;
+        margin-left: 5% !important;
+    }
+
+    .lgx-logo{
+        width: 60% !important;
+    }
+
+    .kcg20-logo{
+        width: 5% !important;
+        margin-left: 20% !important;
+    }
+}
+
+@media (max-width: 768px){
+
+    .naac-logo{
+        width: 8%;
+        margin-left: 5% !important;
+    }
+
+    .lgx-logo{
+        width: 60% !important;
+    }
+
+    .kcg20-logo{
+        width: 6% !important;
+        margin-left: 15% !important;
+    }
+}
+
+@media (max-width: 750px){
+
+    .naac-logo{
+        width: 20% !important;
+        margin-left: 0% !important;
+        margin-top: 0;
+    }
+
+    .lgx-logo{
+        width: 40% !important;
+    }
+
+    .kcg20-logo{
+        width: 15% !important;
+        margin-left: 20% !important;
+    }
 }
