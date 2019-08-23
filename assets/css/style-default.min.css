@@ -7073,8 +7073,8 @@ button:hover:after {
     transform-origin: center;
     animation-duration: .4s;
     animation-timing-function: linear;
-    margin-top: .5rem;
-    display: inline-block
+/*     margin-top: .5rem; */
+    display: inline-block;
 }
 
 .lgx-header .menu-onscroll,
@@ -14335,7 +14335,7 @@ div#team-contact-info{
 
 /* LOGOS */
 
-@media (max-width: 1400px){
+/* @media (max-width: 1400px){
 
     .naac-logo{
         width: 10%;
@@ -14384,8 +14384,8 @@ div#team-contact-info{
         width: 6% !important;
         margin-left: 15% !important;
     }
-}
-
+} */
+/* 
 @media (max-width: 750px){
 
     .naac-logo{
@@ -14402,16 +14402,15 @@ div#team-contact-info{
         width: 15% !important;
         margin-left: 20% !important;
     }
-}
+} */
 /* for top 3 logo mobile view */
 @media (max-width:468px) {
     .img-fluid{
       width:60px !important;
       height:50px !important;
-      float:left !important;
     }
-    .naac-logo{
-        margin-left: 0px!important;
-
-    }
+}
+.img-fluid{
+    margin-right:8px !important;
+    margin-left: 8px!important;
 }
