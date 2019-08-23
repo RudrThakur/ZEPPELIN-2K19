@@ -14403,3 +14403,15 @@ div#team-contact-info{
         margin-left: 20% !important;
     }
 }
+/* for top 3 logo mobile view */
+@media (max-width:468px) {
+    .img-fluid{
+      width:60px !important;
+      height:50px !important;
+      float:left !important;
+    }
+    .naac-logo{
+        margin-left: 0px!important;
+
+    }
+}
