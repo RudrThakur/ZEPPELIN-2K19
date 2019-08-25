@@ -14410,6 +14410,12 @@ div#team-contact-info{
     margin-left: 8px!important;
 }
 
+@media (max-width:360px) {
+    .img-fluid{
+    margin: 0 !important;
+    }
+}
+
 @media (max-width:468px) {
     .img-fluid{
       width:70px !important;
@@ -14417,16 +14423,12 @@ div#team-contact-info{
     }
 }
 
-@media (max-width:320px) {
-    .img-fluid{
-    margin: 0 !important;
-    }
-}
+
 
 
 /* NAVBAR CREDITS */
 
-.navbar-credits {
+/* .navbar-credits {
     overflow: hidden;
     background-color: #130f40b6;  
     position: fixed;
@@ -14455,4 +14457,4 @@ div#team-contact-info{
         font-size: 12px;
         padding: 3%;
     }
-}
+} */
