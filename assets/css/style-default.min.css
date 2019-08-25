@@ -14406,8 +14406,8 @@ div#team-contact-info{
 /* for top 3 logo mobile view */
 @media (max-width:468px) {
     .img-fluid{
-      width:60px !important;
-      height:50px !important;
+      width:70px !important;
+      height:60px !important;
     }
 }
 .img-fluid{
