@@ -14428,7 +14428,7 @@ div#team-contact-info{
 
 /* NAVBAR CREDITS */
 
-/* .navbar-credits {
+.navbar-credits {
     overflow: hidden;
     background-color: #130f40b6;  
     position: fixed;
@@ -14457,4 +14457,4 @@ div#team-contact-info{
         font-size: 12px;
         padding: 3%;
     }
-} */
+}
